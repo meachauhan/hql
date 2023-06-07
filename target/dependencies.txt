@@ -1,0 +1,23 @@
+digraph "com.akash:hql:jar:1.0" { 
+	"com.akash:hql:jar:1.0" -> "junit:junit:jar:4.11:test" ; 
+	"com.akash:hql:jar:1.0" -> "org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" ; 
+	"com.akash:hql:jar:1.0" -> "com.mysql:mysql-connector-j:jar:8.0.33:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "org.jboss.logging:jboss-logging:jar:3.5.0.Final:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "io.smallrye:jandex:jar:3.0.5:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "com.fasterxml:classmate:jar:1.5.1:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "net.bytebuddy:byte-buddy:jar:1.12.18:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.0:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "org.glassfish.jaxb:jaxb-runtime:jar:4.0.2:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime" ; 
+	"org.hibernate.orm:hibernate-core:jar:6.2.0.Final:compile" -> "org.antlr:antlr4-runtime:jar:4.10.1:runtime" ; 
+	"jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.0:runtime" -> "jakarta.activation:jakarta.activation-api:jar:2.1.0:runtime" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:4.0.2:runtime" -> "org.glassfish.jaxb:jaxb-core:jar:4.0.2:runtime" ; 
+	"org.glassfish.jaxb:jaxb-core:jar:4.0.2:runtime" -> "org.eclipse.angus:angus-activation:jar:2.0.0:runtime" ; 
+	"org.glassfish.jaxb:jaxb-core:jar:4.0.2:runtime" -> "org.glassfish.jaxb:txw2:jar:4.0.2:runtime" ; 
+	"org.glassfish.jaxb:jaxb-core:jar:4.0.2:runtime" -> "com.sun.istack:istack-commons-runtime:jar:4.1.1:runtime" ; 
+	"com.mysql:mysql-connector-j:jar:8.0.33:compile" -> "com.google.protobuf:protobuf-java:jar:3.21.9:compile" ; 
+ } 
