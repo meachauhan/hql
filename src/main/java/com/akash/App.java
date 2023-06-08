@@ -16,7 +16,7 @@ public class App
 		Session session=sf.openSession();
 		Transaction transaction=session.beginTransaction();
 		
-		User u1=new User("Tannu Chauhan","tannuchauhan345@gmail.com");
+		User u1=new User("Akash Chauhan","akash@gmail.com");
 		session.save(u1);
 		transaction.commit();
 		System.out.println("Record Inserted");
